@@ -1,0 +1,26 @@
+/*Alumna: Gabriela Céspedes*/
+/* usar: display: flex;
+align-items
+justify-content*/
+
+.nav, .nav-links, .btn, .active{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white; 
+    text-decoration: none; 
+    margin: 20px;
+}
+
+.nav{
+    background-color: gray;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    background-color: blue;
+    box-shadow: 3px 3px black;/*sombra en el boton: formato(x, y, color)*/
+}
